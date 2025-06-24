@@ -1,0 +1,6 @@
+.dropdown {
+  @apply flex flex-col w-fit;
+  .select {
+    @apply border border-gray-300 rounded shadow-md p-1;
+  }
+}

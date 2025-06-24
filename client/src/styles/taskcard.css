@@ -1,0 +1,19 @@
+.taskcard {
+  @apply w-full sm:w-[350px] h-fit bg-gradient-to-b from-[#393939] to-[#222121] rounded text-white px-2 py-1 shadow-lg my-1;
+
+  .header {
+    @apply flex flex-row items-center border-b border-white;
+  }
+  .description {
+    @apply py-2;
+  }
+
+  .timestamp {
+    font-size: 8px;
+    @apply flex flex-row items-center py-1 gap-1 text-gray-500;
+  }
+
+  .tags {
+    @apply flex flex-row gap-1 py-2;
+  }
+}

@@ -1,0 +1,20 @@
+.tag {
+  font-size: 10px;
+  @apply w-fit py-1 pl-1 pr-3 rounded-3xl flex flex-row items-center text-white gap-0.5 bg-gradient-to-b from-gray-400 to-gray-500 select-none;
+
+  &.in-progress {
+    @apply from-gray-500 to-gray-700;
+  }
+
+  &.completed {
+    @apply from-green-500 to-green-700;
+  }
+
+  &.minor {
+    @apply from-orange-300 to-orange-500;
+  }
+
+  &.major {
+    @apply from-red-400 to-red-800;
+  }
+}

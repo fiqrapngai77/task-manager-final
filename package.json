@@ -1,0 +1,17 @@
+{
+    "name": "task-manager",
+    "private": true,
+    "scripts": {
+        "install-all": "npm install --workspaces",
+        "client": "npm --workspace client start",
+        "server": "npm --workspace server start",
+        "dev": "concurrently \"npm run client\" \"npm run server\""
+    },
+    "workspaces": [
+        "client",
+        "server"
+    ],
+    "devDependencies": {
+        "concurrently": "^8.0.1"
+    }
+}

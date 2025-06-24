@@ -1,0 +1,17 @@
+.modal {
+  background-color: rgba(0, 0, 0, 0.5);
+  @apply fixed inset-0 flex justify-center
+    items-center z-50;
+
+  .card {
+    @apply bg-white rounded-lg p-6 max-w-lg w-full shadow-lg;
+  }
+
+  .header {
+    @apply flex flex-row;
+  }
+
+  .footer {
+    @apply flex flex-row gap-1 justify-end;
+  }
+}

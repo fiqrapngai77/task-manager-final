@@ -1,0 +1,12 @@
+.floating-button {
+  transition: background-color 500ms;
+  @apply rounded-full shadow-sm p-3 flex flex-row w-fit bg-green-600;
+}
+
+.floating-button:hover {
+  @apply cursor-pointer bg-green-800;
+}
+
+.fb-text {
+  @apply text-white hidden sm:block;
+}

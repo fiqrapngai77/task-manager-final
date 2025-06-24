@@ -1,0 +1,8 @@
+.form-input {
+  @apply border border-gray-300 rounded shadow-md p-0.5 w-full outline-0;
+}
+
+.form-input:focus,
+.form-input:active {
+  @apply border-2 border-green-600;
+}

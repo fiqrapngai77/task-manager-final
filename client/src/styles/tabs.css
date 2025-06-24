@@ -1,0 +1,12 @@
+.tabs-wrapper {
+  box-shadow: 4px 6px 20px;
+  @apply rounded-sm w-full lg:w-[800px] h-full overflow-y-scroll;
+}
+
+.choice {
+  @apply py-1 px-3 rounded-tl-sm rounded-tr-sm cursor-pointer max-w-[50vw] w-full;
+}
+
+.tabs {
+  @apply w-full p-3 gap-4 items-center justify-start content-start flex flex-row flex-wrap;
+}
